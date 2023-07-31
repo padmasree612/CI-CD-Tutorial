@@ -1,0 +1,8 @@
+<aura:component implements="flexipage:availableForRecordHome,force:hasRecordId" access="global" >
+	<lightning:recordEditForm recordId="{!v.recordId}"  objectApiName="Account">
+         <lightning:inputField fieldName="Name" />
+         <lightning:inputField fieldName="Phone" />
+         <lightning:inputField fieldName="Email__c" /> 
+         <lightning:button type="Submit" label="Update"/>
+    </lightning:recordEditForm>
+</aura:component>
