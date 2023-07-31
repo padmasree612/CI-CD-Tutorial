@@ -2,7 +2,6 @@
 global with sharing class AccountAPI {
 
 
-    //Delete Action
  
    /*@HttpDelete
     global static void doDelete() {
