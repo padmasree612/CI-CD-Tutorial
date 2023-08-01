@@ -1,7 +1,7 @@
 @RestResource(urlMapping='/Account/*')
 global with sharing class AccountAPI {
 
-
+  //delete action
  
    /*@HttpDelete
     global static void doDelete() {
