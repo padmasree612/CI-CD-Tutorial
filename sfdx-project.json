@@ -1,11 +1,10 @@
 {
   "packageDirectories": [
     {
-      "path": "force-app",
+      "path": "force-app",    
       "default": true
     }
-  ],
-  "name": "CICD_Git",
+  ],  
   "namespace": "",
   "sfdcLoginUrl": "https://login.salesforce.com",
   "sourceApiVersion": "57.0"
